@@ -208,3 +208,18 @@ View(top_10_stations)
 write.csv(top_10_stations, "C:\\cyclistic_capstone\\Top 10 stations.csv",row.names=FALSE)
 
 ##Use these stations for more promotions to convert the casual riders to member
+
+#### Findings
+
+Target for more promotions for the following
+
+1. Casual riders having bikes for more than 1 day.
+2. Casual riders in the weekend - saturday and sunday.
+3. Casual riders during the peak summer - June, July, August
+4. Casual riders from the top 10 stations.
+
+But with help of more information about the casual riders like whether they are tourist or resident, will determine the actual number of casual riders and these details will help to conclude the analysis more efficienlty.
+
+
+Enjoyed and learned a lot by doing my first project!
+Hoping to develop more skills in future!
