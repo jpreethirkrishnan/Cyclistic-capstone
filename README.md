@@ -7,32 +7,6 @@ The goal is to analyze how do annual members and casual riders use Cyclistic bik
 1. Casual riders: Riders who do not have any membership
 2. Member riders: Riders who have membership**
 
-### About Cyclistic
-
-In 2016, Cyclistic launched a successful bike-share offering. Since then, the program has grown to a fleet of 5,824 bicycles that are geotracked and locked into a network of 692 stations across Chicago. The bikes can be unlocked from one station and returned to any other station in the system anytime.
-
-Until now, Cyclistic’s marketing strategy relied on building general awareness and appealing to broad consumer segments. One approach that helped make these things possible was the flexibility of its pricing plans: single-ride passes, full-day passes, and annual memberships. Customers who purchase single-ride or full-day passes are referred to as casual riders. Customers who purchase annual memberships are Cyclistic members.
-
-### Business case study
-
-1. How do annual members and casual riders use Cyclistic bikes differently?
-2. Why would casual riders buy Cyclistic annual memberships?
-3. How can Cyclistic use digital media to influence casual riders to become members?
-
-### Business Objective
-
-Membership is the main source of revenue. In order to maximize the number of membership, the director of marketing wants to design a new marketing strategy to convert casual riders into member riders.
-
-### Data
-
-It is Cyclistic’s historical trip data of the previous 12 months. (Note: The datasets have a different name because Cyclistic is a fictional company. For the purposes of this case study, the datasets are appropriate for this business questions The data has been made available by Motivate International Inc. under this license.) This is public data that can be used to explore how different customer types are using Cyclistic bikes. Also, data-privacy issues prohibit you from using riders’ personally identifiable information. This means that I won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
-
-I have taken the year round data, all 12 months in 2021.
-
-### Tools
-
-Excel, R and Tableau for data cleaning, analysis and visualization.
-
 ### Analysis
 
 Clean, transform and inspect data with Excel
