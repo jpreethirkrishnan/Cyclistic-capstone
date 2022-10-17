@@ -1,0 +1,54 @@
+### Analysis
+
+Clean, transform and inspect data with Excel
+Created backup of original files
+Saved each of the .csv files in an excel worksheet.
+
+File naming convention: YYYYMM
+Remove duplicates with Remove duplicates function.
+
+In all the worksheets,
+Added a new column named "day_started" using the started_at column to get the name of the day started. Function used:   =TEXT(C2,"dddd")
+
+Added another new column named "ride_length" to calculate the length of each ride by subtracting the
+column “started_at” from the column “ended_at” and format as HH:MM:SS using Format > Cells >
+Time > 37:30:55.
+
+
+
+Conducting descriptive analysis, To get a better sense of the data layout.
+
+Calculate the mean of ride_length - File 202101 - mean ride_length
+=AVERAGE(F2:F96835) - 00:15:16
+
+Calculate the max ride_length - Maximum ride_length
+=MAX(F2:F96835)     -18:25:55
+
+
+calculate the mode day_started
+=INDEX(D2:D96835,MODE(MATCH(D2:D96835,D2:D96835,0))) - saturday
+
+Pivot table to calculate and visualize the data.
+
+Calculate the average ride_length for members and casual riders
+
+Row Labels	Average of ride_length
+casual	        00:25:41
+member	        00:12:52
+Grand Total	00:15:28
+
+
+
+Calculate the average ride_length for users by day_of_week
+
+Row Labels	Average of ride_length
+Sunday	        00:17:14
+Monday	        00:14:22
+Wednesday	00:15:22
+Thursday	00:13:48
+Friday	        00:14:16
+Saturday	00:18:01
+Grand Total	00:15:28
+
+Again changed all the .xls files to .csv files.
+Uploaded all 12 .csv files into R and combined all the 12 files into 1 big file named jan_dec_data
